@@ -1,0 +1,52 @@
+apiVersion: backstage.io/v1alpha1
+kind: Organization
+metadata:
+  name: demo-company
+spec:
+  name: Demo Company
+  country: Spain
+  description: Demo Company is a leading technology organization based in Spain, specializing in innovative solutions and architectures.
+  creationDate: 20/09/2023
+  areas:
+    - id: spain
+      name: Spain
+      description: The Spain division of Demo Company, dedicated to pioneering technological advancements and architectural excellence.
+      creationDate: 20/09/2023
+      blueprints:
+        - id: microservices-architecture
+          name: New Microservices Architecture
+          type: microservice
+          creationDate: 21/05/2008
+        - id: bbdd-architecture
+          name: BBDD Architecture
+          type: infrastructure
+          creationDate: 03/11/2023
+        - id: bbdd-liquibase
+          name: LiquiBase
+          type: infrastructure
+          creationDate: 09/11/2023
+        - id: web-front
+          name: Blueprint Light Web Front
+          type: front
+          creationDate: 25/05/2008
+        - id: mulesoft
+          name: MuleSoft Ecosystem Design
+          type: api
+          creationDate: 12/12/2023
+        - id: react-vwdh
+          name: Volkswagen Challenge Architecture
+          type: front
+          creationDate: 14/12/2023
+    - id: france
+      name: France
+      description: The France division of Demo Company, dedicated to driving technological innovation and creating cutting-edge architectures.
+      creationDate: 20/09/2023
+      blueprints:
+        - id: serverless
+          name: Blueprint Serverless Architecture
+          type: microservice
+          creationDate: 03/10/2023
+        - id: web-front
+          name: Blueprint Light Web Front
+          type: front
+          creationDate: 25/05/2008
