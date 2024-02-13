@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Organization
 metadata:
-  name: demo-company
+  name: internal
 spec:
   name: Demo Company
-  country: Spain
+  country: USA
   areas:
-    - id: spain
-      name: Spain
+    - id: usa
+      name: USA
     - id: france
       name: France
