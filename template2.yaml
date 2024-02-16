@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Organization
 metadata:
-  name: internal
-  description: internal company
+  name: new
+  description: new company
 spec: {}
    
