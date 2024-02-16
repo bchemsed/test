@@ -1,7 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Organization
 metadata:
-  name: new
-  description: new company
-spec: {}
-   
+  name: demo1-company
+spec:
+  name: Demo1 Company
+  country: Spain
+  creationDate: "20/09/2023"
+  areas:
+    - name: Spain
+      creationDate: "20/09/2023"
+    - name: France
+      creationDate: "20/09/2023"
