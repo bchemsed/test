@@ -3,11 +3,26 @@ kind: Organization
 metadata:
   name: demo1-company
 spec:
-  name: Demo1 Company
+  name: Demo Company
   country: Spain
   creationDate: "20/09/2023"
   areas:
     - name: Spain
+      description: The Spain division of Demo Company
       creationDate: "20/09/2023"
+      blueprints:
+        - name: New Microservices Architecture
+          type: microservice
+          creationDate: "21/05/2008"
+        - name: BBDD Architecture
+          type: infrastructure
+          creationDate: "03/11/2023"
+        # Add more blueprints as needed
     - name: France
+      description: The France division of Demo Company
       creationDate: "20/09/2023"
+      blueprints:
+        - name: Blueprint Serverless Architecture
+          type: microservice
+          creationDate: "03/10/2023"
+        # Add more blueprints as needed
