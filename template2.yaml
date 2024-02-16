@@ -1,28 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Organization
 metadata:
-  name: demo1-company
+  name: demo1-company  # Assuming org.id is 'demo1-company'
 spec:
-  name: Demo Company
-  country: Spain
-  creationDate: "20/09/2023"
-  areas:
-    - name: Spain
-      description: The Spain division of Demo Company
-      creationDate: "20/09/2023"
-      blueprints:
-        - name: New Microservices Architecture
-          type: microservice
-          creationDate: "21/05/2008"
-        - name: BBDD Architecture
-          type: infrastructure
-          creationDate: "03/11/2023"
-        # Add more blueprints as needed
-    - name: France
-      description: The France division of Demo Company
-      creationDate: "20/09/2023"
-      blueprints:
-        - name: Blueprint Serverless Architecture
-          type: microservice
-          creationDate: "03/10/2023"
-        # Add more blueprints as needed
+  country: Spain  # Assuming org.country is 'Spain'
+  creationDate: "20/09/2023"  # Assuming org.creationDate is '20/09/2023'
