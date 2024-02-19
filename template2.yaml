@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Org
+kind: Organization
 metadata: 
   name: demo-company
 spec:
@@ -57,7 +57,7 @@ spec:
 ---
 
 apiVersion: backstage.io/v1alpha1
-kind: Org
+kind: Organization
 metadata: 
   name: internal
 spec:
