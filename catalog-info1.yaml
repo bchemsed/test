@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example1
+  description: Example1 entity for testing theme switching
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
